@@ -1,0 +1,8 @@
+---
+ - name: "Show Variable Foo"
+   hosts: all
+   gather_facts: no
+   tasks:
+   - debug:
+       msg:
+         - "Value for Foo: {{ foo }}"
