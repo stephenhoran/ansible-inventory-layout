@@ -5,3 +5,6 @@ web2.example.com
 [databases]
 db1.example.com
 db2.example.com
+
+[linux]
+linux.example.com
